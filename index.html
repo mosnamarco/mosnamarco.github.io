@@ -2,14 +2,51 @@
 <html>
     <head>
         <title>Marco D. Mosna - Resume</title>
+        <style>
+            * {
+                font-family: 'Courier New', Courier, monospace;
+                padding : 10px;
+            }
+            body {
+                background-image: url("https://img.freepik.com/free-photo/white-texture_1160-786.jpg?w=996&t=st=1675513408~exp=1675514008~hmac=88e9c2e5a52e44a2f306d498a0731694fd5fdc49b6e9104ea9d958276359bcf7");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            header {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .image-container {
+                display: inline;
+                vertical-align: center;
+            }
+            .image-container > img {
+                max-width: 250px;
+                border-radius: 10%;
+            }
+            .char-references {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: space-evenly;
+            }
+            .skills {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <img src="https://avatars.githubusercontent.com/u/122838600?v=4">
-            <h1>Marco D. Mosna</h1>
-            <p>Sta. Cruz, Naga City, Naga</p>
-            <p>09271637642</p>
-            <p><b>"Do what you want, do what you will, you will succeed eventually"</b></p>
+            <div class="image-container">
+                <img src="https://avatars.githubusercontent.com/u/122838600?v=4">
+            </div>
+            <div>
+                <h1>Marco D. Mosna</h1>
+                <p>Sta. Cruz, Naga City, Naga</p>
+                <p>09271637642</p>
+                <p><b>"Do what you want, do what you will, you will succeed eventually"</b></p>
+            </div>
         </header>
         <hr/>
         <div>
@@ -36,59 +73,66 @@
                         <li>Mobile Aplication Developer</li>
                     </ul>
                 </ul>
-                <h2>Education</h2>
-                <ul>
-                    <li>Masbate National Comprehensive Highschool <i>2016-2019</i></li>
-                    <li>Ateneo De Naga University <i>2019-PRESENT</i></li>
-                </ul>
+            </div>
+            <h2>Education</h2>
+            <ul>
+                <li>Masbate National Comprehensive Highschool <i>2016-2019</i></li>
+                <li>Ateneo De Naga University <i>2019-PRESENT</i></li>
+            </ul>
             </div>
             <hr/>
-            <div>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Emotional Intelligence</li>
-                    <li>Teamwork Skills</li>
-                    <li>Stress management</li>
-                    <li>Problem-Solving</li>
-                    <li>Productivity</li>
-                </ul>
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>Programming</li>
-                    <ol>
-                       <li>C++</li>
-                       <li>Python</li>
-                       <li>JAVA</li>
-                       <li>JavaScript</li>
-                    </ol>
-                    <li>Web</li>
-                    <ol>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ol>
-                </ul>
+            <div class="skills">
+                <div>
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Emotional Intelligence</li>
+                        <li>Teamwork Skills</li>
+                        <li>Stress management</li>
+                        <li>Problem-Solving</li>
+                        <li>Productivity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li>Programming</li>
+                        <ol>
+                           <li>C++</li>
+                           <li>Python</li>
+                           <li>JAVA</li>
+                           <li>JavaScript</li>
+                        </ol>
+                        <li>Web</li>
+                        <ol>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ol>
+                    </ul>
+                </div>
             </div>
             <hr/>
-            <h2>Character References</h2>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Contact</th>
-                </tr>
-                <tr>
-                    <td>Joshua Martinez</td>
-                    <td>joshuamartinez@gbox.adnu.edu.ph</td>
-                </tr>
-                <tr>
-                    <td>Adrian Leo Pajarillo</td>
-                    <td>apajarillo@gbox.adnu.edu.ph</td>
-                </tr>
-                <tr>
-                    <td>Maricel Fornaleza</td>
-                    <td>maformaleza@gbox.adnu.edu.ph</td>
-                </tr>
-            </table>
+            <div class="char-references">
+                <h2>Character References</h2>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <td>Joshua Martinez</td>
+                        <td>joshuamartinez@gbox.adnu.edu.ph</td>
+                    </tr>
+                    <tr>
+                        <td>Adrian Leo Pajarillo</td>
+                        <td>apajarillo@gbox.adnu.edu.ph</td>
+                    </tr>
+                    <tr>
+                        <td>Maricel Fornaleza</td>
+                        <td>maformaleza@gbox.adnu.edu.ph</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <hr/>
         <footer>
