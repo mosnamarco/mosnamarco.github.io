@@ -1,193 +1,154 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Marco D. Mosna - Resume</title>
-    <style>
-        * {
-            font-family: 'Courier New', Courier, monospace;
-            padding: 10px;
-        }
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background-image: url("https://img.freepik.com/free-photo/white-texture_1160-786.jpg?w=996&t=st=1675513408~exp=1675514008~hmac=88e9c2e5a52e44a2f306d498a0731694fd5fdc49b6e9104ea9d958276359bcf7");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        .nav-bar>ul {
-            display: flex;
-            justify-content: space-evenly;
-            list-style: none;
-        }
-
-        .image-container {
-            display: inline;
-            vertical-align: center;
-        }
-
-        .image-container>img {
-            max-width: 250px;
-            border-radius: 10%;
-        }
-
-        #Char-references {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: space-evenly;
-        }
-
-        #Skills {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        a {
-            transition: all 0.3s;
-        }
-
-        a:hover {
-            font-size: 110%;
-            font-weight: bold;
-        }
-
-        /* Borders */
-        header,
-        .nav-bar,
-        #About,
-        #Experience,
-        #Education,
-        #Char-references,
-        #Skills,
-        footer {
-            border: solid 1px;
-            margin: 20px;
-            padding: 40px;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <div class="image-container">
-            <img src="https://avatars.githubusercontent.com/u/122838600?v=4">
-        </div>
-        <div>
-            <h1>Marco D. Mosna</h1>
-            <p>Sta. Cruz, Naga City, Naga</p>
-            <p>09271637642</p>
-            <p><b>"Do what you want, do what you will, you will succeed eventually"</b></p>
-        </div>
-    </header>
+  <body>
     <nav class="nav-bar">
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Char-references">Character References</a></li>
-            <li><a href="./contact.html" target="_blank">Contact Me</a></li>
-        </ul>
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Char-references">Character References</a></li>
+        <li><a href="./contact.html" target="_blank">Contact Me</a></li>
+      </ul>
     </nav>
 
-    <div id="About">
-        <h2>About Me</h2>
-        <p>Hard working and experienced in problem-solving. Aiming to leverage my knowledge and abilities to
-            successfully fill in the role at the company</p>
-    </div>
+    <header>
+      <div class="image-container">
+        <img src="profile.png" />
+      </div>
+      <div class="primary-info">
+        <h1>Marco D. Mosna</h1>
+        <p>Sta. Cruz, Naga City, Naga</p>
+        <p>09271637642</p>
+        <p>
+          <b
+            >"Do what you want, do what you will, you will succeed
+            eventually"</b
+          >
+        </p>
+      </div>
+    </header>
 
-    <div id="Experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><b>CodeC 2022-2022</b> <i>(Volunteer)</i></li>
-            <p>> Frontend Lead</p>
-            <ul>
-                <li>Leveraged knowledge of HTML, CSS and JavaScript to build code for the platform</li>
-                <li>Provided guidance and leadership to less-experienced web developer personels</li>
-            </ul>
-            <li><b>CodeArmy.dev 2022-PRESENT</b> <i>(Apprenticeship)</i></li>
-            <p>> Frontend Engineer</p>
-            <p>> Frontend Developer</p>
-            <p>> UI/UX</p>
-            <ul>
-                <li>Web Application Developer</li>
-                <li>Mobile Aplication Developer</li>
-            </ul>
-        </ul>
-    </div>
+    <section id="exp-section">
+      <div id="Experience">
+        <div>
+          <li>
+            <b>CodeC <i>2022-2022</i></b>
+          </li>
+          <ul>
+            <br />
+            <li><b>Frontend Lead</b></li>
+            <br />
+            <li>
+              Leveraged knowledge of <b>HTML</b>, <b>CSS</b> and
+              <b>JavaScript</b> to build code for the platform
+            </li>
+            <br />
+            <li>
+              Provided <b>guidance</b> and <b>leadership</b> to less-experienced
+              web developer personels
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div>
+          <li>
+            <b>CodeArmy.dev <i>2022-PRESENT</i></b>
+          </li>
+          <ul>
+            <br />
+            <li>Frontend Developer</li>
+            <br />
+            <li>Frontend Engineer</li>
+            <br />
+            <li>UI/UX</li>
+            <br />
+            <li>Web Application Developer</li>
+            <br />
+            <li>Mobile Aplication Developer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="About">
+        <h2>About Me</h2>
+        <p>
+          Hard working and experienced in problem-solving. Aiming to leverage my
+          knowledge and abilities to successfully fill in the role at the
+          company
+        </p>
+      </div>
+    </section>
+
     <div id="Education">
-        <h2>Education</h2>
-        <ul>
-            <li>Masbate National Comprehensive Highschool <i>2016-2019</i></li>
-            <li>Ateneo De Naga University <i>2019-PRESENT</i></li>
-        </ul>
+      <h2>Education</h2>
+      <ul>
+        <li>Masbate National Comprehensive Highschool <i>2016-2019</i></li>
+        <li>Ateneo De Naga University <i>2019-PRESENT</i></li>
+      </ul>
     </div>
 
     <div id="Skills">
-        <div>
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Emotional Intelligence</li>
-                <li>Teamwork Skills</li>
-                <li>Stress management</li>
-                <li>Problem-Solving</li>
-                <li>Productivity</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming</li>
-                <ol>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>JAVA</li>
-                    <li>JavaScript</li>
-                </ol>
-                <li>Web</li>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ol>
-            </ul>
-        </div>
+      <div>
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Emotional Intelligence</li>
+          <li>Teamwork Skills</li>
+          <li>Stress management</li>
+          <li>Problem-Solving</li>
+          <li>Productivity</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Programming</li>
+          <ol>
+            <li>C++</li>
+            <li>Python</li>
+            <li>JAVA</li>
+            <li>JavaScript</li>
+          </ol>
+          <li>Web</li>
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ol>
+        </ul>
+      </div>
     </div>
 
     <div id="Char-references">
-        <h2>Character References</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Contact</th>
-            </tr>
-            <tr>
-                <td>Joshua Martinez</td>
-                <td><a href="#">joshuamartinez@gbox.adnu.edu.ph</a></td>
-            </tr>
-            <tr>
-                <td>Adrian Leo Pajarillo</td>
-                <td><a href="#">apajarillo@gbox.adnu.edu.ph</a></td>
-            </tr>
-            <tr>
-                <td>Maricel Fornaleza</td>
-                <td><a href="#">maformaleza@gbox.adnu.edu.ph</a></td>
-            </tr>
-        </table>
+      <h2>Character References</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Contact</th>
+        </tr>
+        <tr>
+          <td>Joshua Martinez</td>
+          <td><a href="#">joshuamartinez@gbox.adnu.edu.ph</a></td>
+        </tr>
+        <tr>
+          <td>Adrian Leo Pajarillo</td>
+          <td><a href="#">apajarillo@gbox.adnu.edu.ph</a></td>
+        </tr>
+        <tr>
+          <td>Maricel Fornaleza</td>
+          <td><a href="#">maformaleza@gbox.adnu.edu.ph</a></td>
+        </tr>
+      </table>
     </div>
 
     <footer>
-        <a href="./contact.html">Contact Me</a>
+      <a href="./contact.html">Contact Me</a>
     </footer>
-</body>
-
+  </body>
 </html>
