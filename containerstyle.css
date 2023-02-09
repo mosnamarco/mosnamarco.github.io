@@ -1,0 +1,92 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300&display=swap");
+/* global */
+
+body {
+  margin: 5rem;
+}
+.border {
+  box-shadow: 0px 0px 10px #a4a4a4;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  user-select: none;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  margin: auto;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+  min-width: 50%;
+}
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 0.65rem;
+  margin: 0.2rem;
+}
+.back-btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+  background-color: #b9b9b9;
+  color: white;
+  font-size: larger;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+input[type=submit], input[type=reset] {
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+  background-color: #3d3d3d;
+  color: white;
+  font-size: larger;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+a {transition: all 0.2s;}
+input[type=submit]:hover, input[type=reset]:hover, a:hover, .back-btn:hover {
+  transform: scale(1.15);
+}
+input[type=submit]:hover {
+  background-color: rgb(100, 145, 117);
+}
+input[type=reset]:hover {
+  background-color: rgb(143, 82, 82);
+}
+.back-btn:hover {
+  background: #3d3d3d;
+}
+.form > textarea {
+  max-width: 105%;
+  min-width: 105%;
+  padding: 0;
+  margin: 2rem;
+}
+.nav-bar {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar a {
+  padding: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.nav-bar i {
+  transform: scale(4);
+}
