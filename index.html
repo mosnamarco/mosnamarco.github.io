@@ -1,98 +1,159 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Marco D. Mosna - Resume</title>
-    </head>
-    <body>
-        <header>
-            <img src="https://avatars.githubusercontent.com/u/122838600?v=4">
-            <h1>Marco D. Mosna</h1>
-            <p>Sta. Cruz, Naga City, Naga</p>
-            <p>09271637642</p>
-            <p><b>"Do what you want, do what you will, you will succeed eventually"</b></p>
-        </header>
-        <hr/>
+  <head>
+    <title>Marco D. Mosna - Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#char-references">Character References</a></li>
+        <li><a href="./contact.html" target="_blank">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header class="border">
+      <div class="image-container">
+        <img src="profile.png" />
+      </div>
+      <div class="primary-info">
+        <h1>Marco D. Mosna</h1>
+        <p>Sta. Cruz, Naga City, Naga</p>
+        <p>09271637642</p>
+        <p>
+          <b
+            >"Do what you want, do what you will, you will succeed
+            eventually"</b
+          >
+        </p>
+      </div>
+    </header>
+
+    <section id="exp-section" class="border">
+      <div id="Experience">
         <div>
-            <div>
-                <h2>About Me</h2>
-                <p>Hard working and experienced in problem-solving. Aiming to leverage my knowledge and abilities to successfully fill in the role at the company</p>
-            </div>
-            <hr/>
-            <div>
-                <h2>Experience</h2>
-                <ul>
-                    <li><b>CodeC 2022-2022</b> <i>(Volunteer)</i></li>
-                    <p>> Frontend Lead</p>
-                    <ul>
-                        <li>Leveraged knowledge of HTML, CSS and JavaScript to build code for the platform</li>
-                        <li>Provided guidance and leadership to less-experienced web developer personels</li>
-                    </ul>
-                    <li><b>CodeArmy.dev 2022-PRESENT</b> <i>(Apprenticeship)</i></li>
-                    <p>> Frontend Engineer</p>
-                    <p>> Frontend Developer</p>
-                    <p>> UI/UX</p>
-                    <ul>
-                        <li>Web Application Developer</li>
-                        <li>Mobile Aplication Developer</li>
-                    </ul>
-                </ul>
-                <h2>Education</h2>
-                <ul>
-                    <li>Masbate National Comprehensive Highschool <i>2016-2019</i></li>
-                    <li>Ateneo De Naga University <i>2019-PRESENT</i></li>
-                </ul>
-            </div>
-            <hr/>
-            <div>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Emotional Intelligence</li>
-                    <li>Teamwork Skills</li>
-                    <li>Stress management</li>
-                    <li>Problem-Solving</li>
-                    <li>Productivity</li>
-                </ul>
-                <h2>Technical Skills</h2>
-                <ul>
-                    <li>Programming</li>
-                    <ol>
-                       <li>C++</li>
-                       <li>Python</li>
-                       <li>JAVA</li>
-                       <li>JavaScript</li>
-                    </ol>
-                    <li>Web</li>
-                    <ol>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ol>
-                </ul>
-            </div>
-            <hr/>
-            <h2>Character References</h2>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Contact</th>
-                </tr>
-                <tr>
-                    <td>Joshua Martinez</td>
-                    <td>joshuamartinez@gbox.adnu.edu.ph</td>
-                </tr>
-                <tr>
-                    <td>Adrian Leo Pajarillo</td>
-                    <td>apajarillo@gbox.adnu.edu.ph</td>
-                </tr>
-                <tr>
-                    <td>Maricel Fornaleza</td>
-                    <td>maformaleza@gbox.adnu.edu.ph</td>
-                </tr>
-            </table>
+          <li>
+            <b>CodeC <i>2022-2022</i></b>
+          </li>
+          <ul>
+            <br />
+            <li><b>Frontend Lead</b></li>
+            <br />
+            <li>
+              Leveraged knowledge of <b>HTML</b>, <b>CSS</b> and
+              <b>JavaScript</b> to build code for the platform
+            </li>
+            <br />
+            <li>
+              Provided <b>guidance</b> and <b>leadership</b> to less-experienced
+              web developer personels
+            </li>
+          </ul>
         </div>
-        <hr/>
-        <footer>
-            <a href="./contact.html">Contact Me</a>
-        </footer>
-    </body>
+        <br />
+        <div>
+          <li>
+            <b>CodeArmy.dev <i>2022-PRESENT</i></b>
+          </li>
+          <ul>
+            <br />
+            <li>Frontend Developer</li>
+            <br />
+            <li>Frontend Engineer</li>
+            <br />
+            <li>UI/UX</li>
+            <br />
+            <li>Web Application Developer</li>
+            <br />
+            <li>Mobile Aplication Developer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="About">
+        <p>
+          "Hard working and experienced in problem-solving. Aiming to leverage
+          my knowledge and abilities to successfully fill in the role at the
+          company."
+        </p>
+      </div>
+    </section>
+
+    <div id="Education" class="border">
+      <h2>Education</h2>
+      <div>
+        <span>Masbate National Comprehensive Highschool <i>2016-2019</i></span><br>
+        <span>Ateneo De Naga University <i>2019-PRESENT</span>
+      </div>
+    </div>
+
+    <div id="Skills" class="border">
+      <div class="soft-skills">
+        <h2>Soft Skills</h2>
+          <li>Emotional Intelligence</li>
+          <li>Teamwork Skills</li>
+          <li>Stress management</li>
+          <li>Problem-Solving</li>
+          <li>Productivity</li>
+      </div>
+      <div class="technical-skills">
+        <h2>Technical Skills</h2>
+          <li>Programming</li>
+          <ol>
+            <li>C++</li>
+            <li>Python</li>
+            <li>JAVA</li>
+            <li>JavaScript</li>
+          </ol>
+          <li>Web</li>
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ol>
+      </div>
+    </div>
+
+    <div id="char-references" class="border">
+      <div class="cr-title">
+        <h2>Character References</h2>
+      </div>
+      <div>
+        <div class="cr-table">
+          <div>
+            <table>
+              <tr>
+                <td>Joshua Martinez</td>
+              </tr>
+              <tr>
+                <td>Adrian Leo Pajarillo</td>
+              </tr>
+              <tr>
+                <td>Maricel Fornaleza</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td><a href="#">joshuamartinez@gbox.adnu.edu.ph</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">apajarillo@gbox.adnu.edu.ph</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">mafornaleza@gbox.adnu.edu.ph</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
