@@ -151,10 +151,30 @@ input:focus, textarea:focus {
   transition: all 0.3s;
 }
 #contact input[type=submit]:hover, #contact input[type=reset]:hover {
-  background-color: rgb(40, 100, 60);
+  background-color: rgb(65, 194, 194);
   transform: scale(1.1);
 }
 #contact input[type=submit], #contact input[type=reset] {width: 50%}
+#contact .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+#contact .icons i {
+  transform: scale(2.5);
+  transition: all 0.3s;
+  margin-bottom: 1em;
+}
+#contact .icons i:hover {
+  transform: scale(3.5);
+  color: rgb(65, 194, 194);
+}
+#contact .icons div {
+  width: 50px;
+  height: auto;
+}
 
 @media only screen and (max-width: 800px) {
   /* nav */
@@ -202,6 +222,7 @@ input:focus, textarea:focus {
   /* character ref */
   #character-ref .persons { transform: scale(0.8); }
 
+  /* contact */
   #contact {
     width: 100%;
     display: flex;
